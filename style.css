@@ -4,6 +4,7 @@ primary: #3A405A (dark blue)
 border: #8EA4D2 (cobalt blue)
 page: #E2EFFF (light blue)
 text: #FFFFFF (white)
+text (hover): #000000 (black)
 link: https://coolors.co/3a405a-8ea4d2-e2efff-ffffff
 */
 
@@ -46,7 +47,7 @@ body {
 #navbar a:hover {
 
     background-color: #8EA4D2;
-    color: black;
+    color: #000000;
 
 }
 
