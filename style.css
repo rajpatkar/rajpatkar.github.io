@@ -1,0 +1,58 @@
+/*
+colors:
+primary: #3A405A (dark blue)
+border: #8EA4D2 (cobalt blue)
+page: #E2EFFF (light blue)
+text: #FFFFFF (white)
+text (hover): #000000 (black)
+link: https://coolors.co/3a405a-8ea4d2-e2efff-ffffff
+*/
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E2EFFF;
+    margin: auto;
+    text-align: center;
+    overflow-x: hidden;
+
+}
+
+#navbar {
+
+    position: fixed;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: #3a405a;
+    display: flex;
+    justify-content: center;
+    border-bottom: 20px solid #8EA4D2;
+
+}
+
+#navbar a {
+
+    font-size: 40px;  
+    float: left;
+    display: block;
+    padding: 16px;
+    padding-right: 80px;
+    padding-left: 80px;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+#navbar a:hover {
+
+    background-color: #8EA4D2;
+    color: #000000;
+
+}
+
+#navbar-name {
+
+    font-weight: bold;
+
+}
