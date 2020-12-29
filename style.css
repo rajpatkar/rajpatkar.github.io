@@ -17,8 +17,10 @@ body {
 
 }
 
-.navbar {
+#navbar {
 
+    position: fixed;
+    width: 100vw;
     margin: 0;
     padding: 0;
     background-color: #3a405a;
@@ -28,7 +30,7 @@ body {
 
 }
 
-.navbar a {
+#navbar a {
 
     font-size: 40px;  
     float: left;
@@ -41,7 +43,14 @@ body {
 
 }
 
-#name {
+#navbar a:hover {
+
+    background-color: #8EA4D2;
+    color: black;
+
+}
+
+#navbar-name {
 
     font-weight: bold;
 
