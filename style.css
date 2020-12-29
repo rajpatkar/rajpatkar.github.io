@@ -4,6 +4,7 @@ body {
     background-color: #ddeaff;
     margin: auto;
     text-align: center;
+    overflow-x: hidden;
 
 }
 
@@ -11,17 +12,15 @@ body {
 
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: #777777;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 
 .navbar a {
 
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 40px;  
     float: left;
     color: #dbffde;
     display: block;
@@ -29,5 +28,11 @@ body {
     padding-right: 80px;
     padding-left: 80px;
     text-decoration: none;
+
+}
+
+#name {
+
+    font-weight: bold;
 
 }
