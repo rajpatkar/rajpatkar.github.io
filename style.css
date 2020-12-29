@@ -7,29 +7,27 @@ body {
 
 }
 
-.navbar ul {
+.navbar {
 
-    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #777777;
-
-}
-
-.navbar li {
-
-    font-size: 40px;
-    font-weight: bold;
-    float: left;
+    display: flex;
+    justify-content: space-between;
 
 }
 
 .navbar a {
 
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
     color: #dbffde;
     display: block;
     padding: 16px;
+    padding-right: 80px;
+    padding-left: 80px;
     text-decoration: none;
 
 }
