@@ -18,7 +18,7 @@ body {
 
 }
 
-#navbar {
+.navbar {
 
     position: fixed;
     width: 100vw;
@@ -31,7 +31,7 @@ body {
 
 }
 
-#navbar a {
+.navbar a {
 
     font-size: 2vw;  
     float: left;
@@ -45,14 +45,14 @@ body {
 
 }
 
-#navbar a:hover {
+.navbar a:hover, .navbar-current-page {
 
     background-color: #8EA4D2;
     color: #000000;
 
 }
 
-#navbar-name {
+.navbar-center-name {
 
     font-weight: bold;
 
