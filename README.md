@@ -1,2 +1,9 @@
 # rajpatkar.github.io
-rajpatkar's Github Page
+Rajan Patkar's Webpage
+Plans for Future Webpages:
+- template.html &rarr; Template
+- index.html &rarr; Elevator Pitch
+- profile.html &rarr; Full Profile
+- projects.html &rarr; Project Portfolio
+- resume.html &rarr; Resume & Download
+- contact.html &rarr; Contact Information
