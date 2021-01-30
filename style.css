@@ -95,14 +95,41 @@ body {
 
 }
 
+.elevator-pitch {
+
+    display: flex;
+    padding-bottom: 4vh;
+
+}
+
+.elevator-pitch-portrait {
+
+    flex: 1;
+    text-align: center;
+    width: 40vw;
+
+}
+
+.elevator-pitch-portrait img {
+
+    width: 30vw;
+
+}
+
+.elevator-pitch-text {
+
+    flex: 1;
+    text-align: right;
+    width: 40vw;
+
+}
+
 /* colophon */
 
 .colophon {
     
-    float: right;
     text-align: right;   
-    position: fixed;
-    right: 10vw;
+    width: 90vw;
 
 }
 
