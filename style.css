@@ -1,6 +1,6 @@
 /*
 colors:
-primary: #3A405A (dark blue)
+main: #3A405A (dark blue)
 border: #8EA4D2 (cobalt blue)
 page: #E2EFFF (light blue)
 text: #FFFFFF (white)
@@ -75,9 +75,23 @@ body {
 .main {
 
     width: 80vw;
-    padding-top: 15vh;
+    padding-top: 6vh;
     text-align: center;
     margin: auto;
+
+}
+
+.hello-message {
+
+    text-align: center;
+
+}
+
+.hello-message p {
+
+    font-size: 4vw;
+    color: var(--main-color);
+    font-weight: bold;
 
 }
 
