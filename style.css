@@ -126,10 +126,32 @@ body {
 
 /* colophon */
 
+.colophon-line-breaker {
+
+    background-color: var(--main-color);
+    height: 0.25vh;
+
+}
+
 .colophon {
+
+    width: 80vw;
+    display: flex;
+    text-align: center;
+
+}
+
+.colophon-left-text {
+
+    text-align: left;
+    width: 45vw;
+
+}
+
+.colophon-right-text {
     
     text-align: right;   
-    width: 90vw;
+    width: 45vw;
 
 }
 
@@ -139,12 +161,5 @@ body {
     font-style: italic;
     color: var(--main-color);
     right: 1vh;
-
-}
-
-.colophon-line-breaker {
-
-    background-color: var(--main-color);
-    height: 0.25vh;
 
 }
