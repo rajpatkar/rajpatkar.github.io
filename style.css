@@ -115,6 +115,7 @@ body {
 
     width: 30vw;
     border: 2vh solid var(--border-color);
+    background-color: var(--border-color); /* avoids 1px white line */
 
 }
 
