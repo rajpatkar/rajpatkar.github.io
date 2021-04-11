@@ -82,13 +82,13 @@ body {
 
 }
 
-.hello-message {
+.top-message {
 
     text-align: center;
 
 }
 
-.hello-message * {
+.top-message * {
 
     font-size: 3.5vw;
     color: var(--main-color);
@@ -180,5 +180,15 @@ body {
     font-style: italic;
     color: var(--text-alt-color);
     right: 1vh;
+
+}
+
+/* resume */
+
+.resume-embed {
+
+    display: flex;
+    padding-bottom: 4vh;
+    padding-top: 4vh;
 
 }
