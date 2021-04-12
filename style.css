@@ -192,3 +192,43 @@ body {
     padding-top: 4vh;
 
 }
+
+/* contact */
+
+.link-table-container {
+
+    display: flex;
+    padding-bottom: 4vh;
+
+}
+
+.link-table {
+
+    width: 80vw;
+    border-collapse: collapse;
+
+}
+
+.link-table td {
+
+    font-size: 2.5vw;
+    color: var(--text-alt-color);
+
+}
+
+.left-cell {
+
+    width: 20vw;
+    text-align: right;
+    border-right: 0.25vw solid black;
+    padding-right: 5vw;
+
+}
+
+.right-cell {
+
+    width: 60vw;
+    text-align: left;
+    padding-left: 5vw;
+
+}
