@@ -216,7 +216,7 @@ body {
 
 }
 
-.left-cell {
+.link-table-left-cell {
 
     width: 20vw;
     text-align: right;
@@ -225,7 +225,7 @@ body {
 
 }
 
-.right-cell {
+.link-table-right-cell {
 
     width: 60vw;
     text-align: left;
