@@ -106,8 +106,23 @@ body {
 .elevator-pitch-portrait {
 
     flex: 1;
+    text-align: justify;
+    width: 30vw;
+
+}
+
+.elevator-pitch-portrait p {
+
+    flex: 1;
+    width: 30vw;
+    margin-bottom: 0;
+    margin-top: 0;
     text-align: center;
-    width: 40vw;
+    background-color: var(--main-color);
+    border: 2vh solid var(--border-color);
+    border-width: 2vh 2vh 0 2vh;
+    font-size: 2vw;
+    color: var(--text-main-color);
 
 }
 
