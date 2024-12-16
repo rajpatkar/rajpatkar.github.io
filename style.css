@@ -214,7 +214,7 @@ body {
 .link-table td {
 
     font-size: 2.5vw;
-    color: var(--text-alt-color);
+    color: var(--main-color);
 
 }
 
@@ -222,7 +222,7 @@ body {
 
     width: 20vw;
     text-align: right;
-    border-right: 0.25vw solid black;
+    border-right: 0.25vw solid var(--main-color);
     padding-right: 5vw;
 
 }
